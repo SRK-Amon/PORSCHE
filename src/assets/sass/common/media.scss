@@ -1,0 +1,133 @@
+@media (max-width: 1000px) {
+    .nav {
+        padding: 10px 14px;
+
+        &_box {
+            .nav_logo {
+                img {
+                    width: 62px;
+                    height: 65px;
+                }
+            }
+
+            .nav_list {
+                gap: 75px;
+
+                .nav_link {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        &_box {
+            .nav_logo {
+                img {
+                    width: 60px;
+                    height: 63px;
+                }
+            }
+
+            .nav_list {
+                gap: 70px;
+
+                .nav_link {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        padding: 9px 13px;
+
+        &_box {
+            .nav_logo {
+                img {
+                    width: 55px;
+                    height: 58px;
+                }
+            }
+
+            .nav_list {
+                gap: 65px;
+
+                .nav_link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .nav {
+        padding: 9px 12px;
+
+        &_box {
+            .nav_logo {
+                img {
+                    width: 52px;
+                    height: 55px;
+                }
+            }
+
+            .nav_list {
+                gap: 60px;
+
+                .nav_link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .nav {
+        &_box {
+
+            .menu {
+                display: flex;
+                transition: 0.3s;
+                &.active{
+                    display: none;
+                }
+            }
+
+            .nav_list {
+                background: #474747e0;
+                flex-direction: column ;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 30px;
+                align-items: center;
+                height: 100vh;
+                transform: translateX(100%);
+                transition: 0.5s;
+                border-radius: 0 0 0 20px;
+                &.active{
+                    transform: translateX(0);
+                }
+                .close{
+                    display: flex;
+                    position: absolute;
+                    top: 50px;
+                    left: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 300px) {}

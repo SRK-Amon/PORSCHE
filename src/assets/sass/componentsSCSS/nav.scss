@@ -1,0 +1,35 @@
+.nav {
+    background: #2e2e2e63;
+    backdrop-filter: blur(34px);
+    padding: 10px 15px;
+    &_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu {
+            display: none;
+            width: 40px;
+            height: 40px;
+        }
+
+        .nav_list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            .close {
+                display: none;
+                width: 30px;
+                height: 30px;
+            }
+
+            .nav_link {
+                color: #F0F0F0;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 100%;
+            }
+        }
+    }
+}

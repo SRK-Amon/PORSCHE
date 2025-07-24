@@ -1,3 +1,6 @@
-@use "./common/common.scss" ;
-@use "./common/fonts.scss" ;
+@use "./common/common.scss";
+@use "./common/fonts.scss";
+
+@use "../sass/componentsSCSS/nav.scss";
+@use "../sass/componentsSCSS/intro.scss";
 

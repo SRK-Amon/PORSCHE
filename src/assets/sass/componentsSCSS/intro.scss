@@ -1,0 +1,48 @@
+.intro {
+    background-image: url(../../images/Intro_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 747px;
+    display: flex;
+    align-items: center;
+
+    &_box {
+        display: flex;
+        justify-content: center;
+
+        .intro_img {
+            position: absolute;
+            bottom: 0;
+            width: 1100px;
+            transform: translateY(100px);
+        }
+
+        .intro_mini_box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            .intro_title {
+                font-weight: 600;
+                font-size: 140px;
+                letter-spacing: 120%;
+                color: #B31D1E;
+            }
+
+            .intro_btn {
+                padding: 18px 94px;
+                background: linear-gradient(93.34deg, #FFA600 0%, #E41818 100%);
+
+                color: #141414;
+                font-weight: 800;   
+                font-size: 24px;
+                border-radius: 15px;
+                transition: 0.2s;
+                &:active{
+                    transform: scale(0.8);
+                }
+            }
+        }
+    }
+}
