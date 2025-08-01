@@ -1,0 +1,17 @@
+.gallery {
+  margin-bottom: 45px;
+  &_box {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+
+    &_text {
+      font-weight: 400;
+      font-size: 14px;
+      color: #898C94;
+    }
+  }
+}
