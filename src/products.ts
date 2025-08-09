@@ -3,7 +3,7 @@ export const CarGallery = [
         id: 1,
         name: "911 Targa 4 GTS",
         price: "138,000.00",
-        img: "./car1.png",
+        img: "/src/assets/images/car1.png",
     },
     {
         id: 2,
