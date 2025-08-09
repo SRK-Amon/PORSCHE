@@ -77,7 +77,7 @@ export const filterOptions = [
 ];
 import ColoursFilter_1 from "/src/assets/images/ColoursFilter_1.png";
 import ColoursFilter_2 from "/src/assets/images/ColoursFilter_2.png";
-import ColoursFilter_3 from "/src/assets/images/ColoursFilter_3.png";
+import ColoursFilter_3 from "/src/assets/images/coloursFilter_3.png";
 export const ColoursFilter = [
     { id: 1, name: "Carmine Red", img: ColoursFilter_1},
     { id: 2, name: "Ice Grey Metallic", img: ColoursFilter_2 },
