@@ -1,0 +1,33 @@
+.footer {
+    border-top: #898C94 1px inset;
+    padding-top: 45px;
+
+    &_box {
+        display: flex;
+        justify-content: space-around;
+
+        .footer_mini_box {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            &_title {
+                font-weight: 300;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+
+            &_text {
+                font-weight: 400;
+                font-size: 11px;
+                color: #898C94;
+
+                &.active {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}

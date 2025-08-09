@@ -1,0 +1,13 @@
+// main scss
+@use "./common/fonts.scss" ;
+@use "./common/common.scss" ;
+
+// components scss 
+@use "./styles/nav.scss" ;
+@use "./styles/footer.scss" ;
+
+// pages scss
+@use "./styles/gallery.scss" ;
+@use "./styles/home.scss" ;
+@use "/src/swiper/ModelSwiper.scss" ;
+@use "/src/swiper/FilterSwiper.scss" ;
