@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import menu from "../assets/images/menu.svg";
 import porsche from "../assets/images/porsche_logo.svg";
 import profile from "../assets/images/profile.svg";
-import location from "../assets/images/location.svg";
+import location from "../assets/images/nav_location.svg";
 
 const Nav = () => {
     return (

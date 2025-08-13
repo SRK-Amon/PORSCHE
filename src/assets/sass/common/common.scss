@@ -1,39 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Futura-Book";
-      user-select: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Futura-Book";
+  -webkit-user-select: none;
 }
-.container{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-html{
-    scrollbar-width: none;
-    background-color: #F8F8F8;
-    height: 100%;
+html,
+body {
+  background-color: #f8f8f8;
+  overflow: hidden;
+  height: 100%;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
-input{
-    border: none;
-    outline: none;
-    
+input {
+  border: none;
+  outline: none;
 }
-button{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    &:active{
-        transform: scale(0.9);
-    }
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:active {
+    transform: scale(0.9);
+  }
 }
-
-
