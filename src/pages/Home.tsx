@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import arrow from "../assets/images/arrow.svg";
 import save from "../assets/images/save.svg";
-import TechnicalData from "../assets/images/Technical_data_img.svg";
+import TechnicalData from "../assets/images/Technical_data_img.svg";    
 import modal_911 from "../assets/images/Modal_911.svg";
 import porsche from "../assets/images/Modal_img.png";
 import location from "../assets/images/location.svg";
@@ -88,7 +88,7 @@ const Home = () => {
       </div>
       <div className="home_box">
         <div className="home_box_top">
-          <Link to="/gallery" className="home_box_top_link">
+          <Link to="/" className="home_box_top_link">
             <img src={arrow} alt="" />
             <span>Model overview</span>
           </Link>

@@ -10,7 +10,7 @@ const ModelSwiper = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const navigate = useNavigate();
   const handleSlideClick = () => {
-    navigate("/")
+    navigate("/home")
   }
   return (
     <Swiper
